@@ -2,32 +2,32 @@ public class Main {
     public static void main(String[] args) {
 
         NodoArbol nodoArbol = new NodoArbol(10);
-        NodoAvl nodoAvl = new NodoAvl(20);
-        NodoRojoNegro nodoRojoNegro = new NodoRojoNegro(30);
-        NodoSimple nodoSimple = new NodoSimple(40);
-        NodoDoble nodoDoble = new NodoDoble(50);
-        NodoCircular nodoCircular = new NodoCircular(60);
-        NodoDobleCircular nodoDobleCircular = new NodoDobleCircular(70);
+        NodoAvl nodoAvl = new NodoAvl(30);
+        NodoRojoNegro nodoRojoNegro = new NodoRojoNegro(40);
+        NodoSimple nodoSimple = new NodoSimple(50);
+        NodoDoble nodoDoble = new NodoDoble(60);
+        NodoCircular nodoCircular = new NodoCircular(70);
+        NodoDobleCircular nodoDobleCircular = new NodoDobleCircular(80);
         Grafo grafo = new Grafo(5, 10);
 
-        nodoArbol.setIzquierdo(new NodoArbol(5));
+        nodoArbol.setIzquierdo(new NodoArbol(10));
         nodoArbol.setDerecho(new NodoArbol(15));
 
         nodoAvl.setAltura(3);
 
-        nodoRojoNegro.setColor("Rojo");
-        nodoRojoNegro.setIzquierda(new NodoRojoNegro(25));
-        nodoRojoNegro.setDerecha(new NodoRojoNegro(35));
+        nodoRojoNegro.setColor("NEGRO");
+        nodoRojoNegro.setIzquierda(new NodoRojoNegro(29));
+        nodoRojoNegro.setDerecha(new NodoRojoNegro(31));
 
-        nodoSimple.setSiguiente(new NodoSimple(45));
+        nodoSimple.setSiguiente(new NodoSimple(48));
 
-        nodoDoble.setSiguiente(new NodoDoble(55));
-        nodoDoble.setAnterior(new NodoDoble(45));
+        nodoDoble.setSiguiente(new NodoDoble(54));
+        nodoDoble.setAnterior(new NodoDoble(49));
 
-        nodoCircular.setSiguiente(new NodoCircular(65));
+        nodoCircular.setSiguiente(new NodoCircular(66));
 
-        nodoDobleCircular.setSiguiente(new NodoDobleCircular(75));
-        nodoDobleCircular.setAnterior(new NodoDobleCircular(65));
+        nodoDobleCircular.setSiguiente(new NodoDobleCircular(77));
+        nodoDobleCircular.setAnterior(new NodoDobleCircular(67));
 
         System.out.println("Valor Nodo Arbol: " + nodoArbol.getValor());
         System.out.println("Altura Nodo AVL: " + nodoAvl.getAltura());

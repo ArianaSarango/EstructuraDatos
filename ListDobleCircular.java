@@ -18,8 +18,6 @@ class NodoDobleCircular extends Principal {
         return anterior;
     }
 
-
-
     public void setAnterior(NodoDobleCircular anterior) {
         this.anterior = anterior;
     }
