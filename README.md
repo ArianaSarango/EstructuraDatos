@@ -39,6 +39,7 @@ El proyecto está organizado de la siguiente manera:
 
 ### **Clases Abstractas**
 
+
 * **Nodo:** Clase abstracta para los nodos, con atributos dato y color.
 * **Lista:** Clase abstracta para las listas, con atributos cabeza, cola y tamaño.
 * **EstructuraDato:** Clase abstracta para las estructuras de datos con métodos agregar, eliminar e insertar.
