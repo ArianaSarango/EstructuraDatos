@@ -69,8 +69,14 @@ El proyecto está organizado de la siguiente manera:
 
 * **Arista:** Define una arista con nodos.
 
-* Referencias
+Referencias
 
 
-G. P. M. “Las principales estructuras de datos que deberías saber para tu próxima entrevista de programación”. freeCodeCamp.org. Accedido el 20 de junio de 2024. [En línea]. Disponible: https://www.freecodecamp.org/espanol/news/las-principales-estructuras-de-datos-que-deberias-saber-para-tu-proxima-entrevista-de-programacion/
+G. P. M. “Las principales estructuras de datos que deberías saber para tu próxima entrevista de programación”. freeCodeCamp.org. Accedido el 19 de junio de 2024. [En línea]. Disponible: https://www.freecodecamp.org/espanol/news/las-principales-estructuras-de-datos-que-deberias-saber-para-tu-proxima-entrevista-de-programacion/
+
+
+“DSTool: Herramienta para la programación con estructuras de datos”. HCI-RG: welcome - home. Accedido el 19 de junio de 2024. [En línea]. Disponible: https://www.hci.uniovi.es/Products/DSTool/avl/avl-operaciones.html
+
+
+Sitio Web Docente del Prof. Edgardo AdriÃ¡n Franco MartÃ­nez en el IPN. Accedido el 19 de junio de 2024. [En línea]. Disponible: https://docencia.eafranco.com/materiales/estructurasdedatos/12/Tema12.pdf
 
