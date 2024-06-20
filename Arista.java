@@ -1,36 +1,21 @@
 public class Arista {
-    public Arista inicio;
-    public Arista fin;
-    public int peso;
+    private Nodo origen;
+    private Nodo destino;
 
-    public Arista getInicio() {
-        return inicio;
+    public Nodo obtenerOrigen() {
+        return origen;
     }
 
-    public void setInicio(Arista inicio) {
-        this.inicio = inicio;
+    public void establecerOrigen(Nodo origen) {
+        this.origen = origen;
     }
 
-    public Arista getFin() {
-        return fin;
+    public Nodo obtenerDestino() {
+        return destino;
     }
 
-    public void setFin(Arista fin) {
-        this.fin = fin;
-    }
-
-    public int getPeso() {
-        return peso;
-    }
-
-    public void setPeso(int peso) {
-        this.peso = peso;
-    }
-
-    public void invertir() {
-        Arista temp = inicio;
-        inicio = fin;
-        fin = temp;
+    public void establecerDestino(Nodo destino) {
+        this.destino = destino;
     }
 }
 

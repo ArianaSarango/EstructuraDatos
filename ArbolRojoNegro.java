@@ -1,4 +1,4 @@
-public class ArbolAVL extends ArbolBinario {
+public class ArbolRojoNegro extends ArbolBinario {
     @Override
     public int agregar() {
         // Implementación de agregar
