@@ -68,3 +68,9 @@ El proyecto está organizado de la siguiente manera:
 #### _Grafo_
 
 * **Arista:** Define una arista con nodos.
+
+* Referencias
+
+
+G. P. M. “Las principales estructuras de datos que deberías saber para tu próxima entrevista de programación”. freeCodeCamp.org. Accedido el 20 de junio de 2024. [En línea]. Disponible: https://www.freecodecamp.org/espanol/news/las-principales-estructuras-de-datos-que-deberias-saber-para-tu-proxima-entrevista-de-programacion/
+
