@@ -7,6 +7,8 @@
 * Iván Alexander Fernandez Cañar.
 * José Francisco Riofrío Maldonado.
 * Ariana Sophía Sarango Tandazo.
+* Ivan Fernandez
+* Jose Riofrio
 
 **Ciclo:**
 
