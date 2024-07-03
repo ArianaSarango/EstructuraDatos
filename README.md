@@ -5,6 +5,8 @@
 
 * Nathaly Nikooll Camacho Ordoñez.
 * Ariana Sophía Sarango Tandazo.
+* Ivan Fernandez
+* Jose Riofrio
 
 **Ciclo:**
 
