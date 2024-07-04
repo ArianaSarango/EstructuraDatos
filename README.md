@@ -31,6 +31,24 @@ Generar un diagrama UML y código en Java con las siguientes características:
 
 Generar una interfaz gráfica de escritorio, que soporte los elementos de un árbol binario de búsqueda y pinte el recorrido tanto en preorden, inorden y postorden.
 
+
+
+Para ingresar a nuestro proyecto realizamos lo siguiente:
+
+
+1) Descargar el código, el cual se encuentra en la rama interfaz.
+
+
+2)  Descomprimir el archivo y guardalo en la carpeta donde se tengan todos los proyectos de NetBeans.
+
+   
+3) Abrir la carpeta del código en Netbeans.
+
+
+4) Ejecutar el proyecto y así se podra visualizar e interactuar con la interfaz.
+
+   
+
 ## Diagrama UML
 
 ![DiagramaUML.png](DiagramaUML.png)
