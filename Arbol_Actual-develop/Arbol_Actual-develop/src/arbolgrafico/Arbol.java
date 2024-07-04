@@ -5,10 +5,12 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JPanel;
 import java.awt.Color;
+import javax.swing.Timer;
 
 public class Arbol {
 
     private Nodo raiz;
+    private Nodo ultimoInsertado;
     int cant;
     int altura;
 
@@ -26,11 +28,21 @@ public class Arbol {
 
     
     public boolean agregar(int dato) {
-        Nodo nuevo = new Nodo(dato, null, null);
-        nuevo.setColor(Color.RED);
-        insertar(nuevo, raiz);
-        return true;
-    }
+    Nodo nuevo = new Nodo(dato, null, null);
+    nuevo.setColor(Color.RED);
+    insertar(nuevo, raiz);
+    ultimoInsertado = nuevo;
+
+    Timer timer = new Timer(2000, e -> {
+        nuevo.setColor(Color.BLACK);
+        ultimoInsertado = null;
+        repaint();
+    });
+    timer.setRepeats(false);
+    timer.start();
+
+    return true;
+}
 
     
     public void insertar(Nodo nuevo, Nodo pivote) {
@@ -481,6 +493,14 @@ public class Arbol {
    
      public JPanel getdibujo() {
         return new ArbolExpresionGrafico(this);
+    }
+
+    Nodo getultimoInsertado() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    private void repaint() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
 

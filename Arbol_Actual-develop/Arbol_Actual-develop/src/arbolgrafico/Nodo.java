@@ -13,6 +13,7 @@ public class Nodo {
         this.dato = dato;
         this.izq = izq;
         this.der = der;
+        this.color = Color.WHITE; 
     }
 
     public int getDato() {
