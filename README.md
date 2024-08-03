@@ -33,10 +33,10 @@ Generar una interfaz gráfica de escritorio, que soporte los elementos de un ár
 
 
 
-Para ingresar a nuestro proyecto realizamos lo siguiente:
+## Para ingresar a nuestro proyecto realizamos lo siguiente:
 
 
-1) Descargar el código, el cual se encuentra en la rama interfaz.
+1) Descargar el código, el cual se encuentra en la rama principal main.
 
 
 2)  Descomprimir el archivo y guardalo en la carpeta donde se tengan todos los proyectos de NetBeans.
@@ -45,7 +45,7 @@ Para ingresar a nuestro proyecto realizamos lo siguiente:
 3) Abrir la carpeta del código en Netbeans.
 
 
-4) Ejecutar el proyecto y así se podra visualizar e interactuar con la interfaz.
+4) Ejecutar el proyecto para poder visualizar e interactuar con la interfaz.
 
    
 
