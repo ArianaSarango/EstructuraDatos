@@ -52,8 +52,7 @@ Generar una interfaz gráfica de escritorio, que soporte los elementos de un ár
 ## Diagrama UML
 
 
-![Estructura_Datos](https://github.com/user-attachments/assets/88113151-3c1b-4c23-96c4-9b390599495e)
-
+![image](https://github.com/user-attachments/assets/c0532fac-2b04-4365-a90d-1e7bef98ab11)
 
 
 ## Estructura del Proyecto
