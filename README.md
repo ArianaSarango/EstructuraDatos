@@ -55,48 +55,6 @@ Generar una interfaz gráfica de escritorio, que soporte los elementos de un ár
 ![image](https://github.com/user-attachments/assets/c0532fac-2b04-4365-a90d-1e7bef98ab11)
 
 
-## Estructura del Proyecto
-
-El proyecto está organizado de la siguiente manera:
-
-### **Enumeraciones**
-
-* **Color:** Define los colores ROJO y NEGRO.
-
-### **Clases Abstractas**
-
-
-* **Nodo:** Clase abstracta para los nodos, con atributos dato y color.
-* **Lista:** Clase abstracta para las listas, con atributos cabeza, cola y tamaño.
-* **EstructuraDato:** Clase abstracta para las estructuras de datos con métodos agregar, eliminar e insertar.
-* **ArbolBinario:** Clase abstracta para los árboles binarios con varios métodos para operaciones de árbol.
-* **Grafo:** Clase abstracta para los grafos, con listas de nodos y aristas.
-
-### **Clases Concretas**
-
-#### _Nodos_
-
-* **NodoSimple:** Extiende Nodo y añade el atributo siguiente.
-* **NodoDoble:** Extiende Nodo y añade los atributos siguiente y anterior.
-
-#### _Listas_
-
-* **ListaEnlazadaSimple:** Extiende Lista con implementación específica para listas enlazadas simples.
-* **ListaDobleEnlazada:** Extiende Lista con implementación específica para listas doblemente enlazadas.
-* **ListaCircularSimple:** Extiende ListaEnlazadaSimple para listas circulares simples.
-* **ListaDobleCircular:** Extiende ListaDobleEnlazada para listas doblemente circulares.
-
-#### _Árboles_
-
-* **ArbolAVL:** Extiende ArbolBinario con implementación específica para árboles AVL.
-* **ArbolRojoNegro:** Extiende ArbolBinario con implementación específica para árboles Rojo-Negro.
-* **ArbolExpresionGrafica:** Tiene una relación de agregación con ArbolBinario (multiplicidad 1 a 1).
-
-#### _Grafo_
-
-* **Arista:** Define una arista con nodos.
-
-
 ## Referencias
 
 
