@@ -62,73 +62,73 @@ Generar una interfaz gráfica de escritorio, que soporte los elementos de un ár
 
 **Atributos:**
 
-*nodo : raiz - La raíz del árbol.
-*ultimoInsertado : nodo - El último nodo insertado en el árbol.
-*cant : int - La cantidad de nodos en el árbol.
+* nodo : raiz - La raíz del árbol.
+* ultimoInsertado : nodo - El último nodo insertado en el árbol.
+* cant : int - La cantidad de nodos en el árbol.
 
 **Métodos:**   
 
-*obtenerMenor() : string - Devuelve el nodo con el valor menor en el árbol.
-*obtenerMayor() : string - Devuelve el nodo con el valor mayor en el árbol.
-*borrarMenor() : string - Elimina el nodo con el valor menor.
-*borrarMayor() : string - Elimina el nodo con el valor mayor.
-*insertarDatos() : string - Inserta datos en el árbol.
-*cambiarDatos() : string - Cambia los datos de un nodo específico.
-*buscarPadre() : string - Busca y devuelve el nodo padre de un nodo dado.
-*borrar() : string - Elimina un nodo específico.
-*podar() : string - Realiza la poda del árbol, eliminando nodos innecesarios.
-*obtenerNumeroRamas() : string - Devuelve el número de ramas en el árbol.
-*imprimirRecorrido() : string - Imprime un recorrido del árbol.
+* obtenerMenor() : string - Devuelve el nodo con el valor menor en el árbol.
+* obtenerMayor() : string - Devuelve el nodo con el valor mayor en el árbol.
+* borrarMenor() : string - Elimina el nodo con el valor menor.
+* borrarMayor() : string - Elimina el nodo con el valor mayor.
+* insertarDatos() : string - Inserta datos en el árbol.
+* cambiarDatos() : string - Cambia los datos de un nodo específico.
+* buscarPadre() : string - Busca y devuelve el nodo padre de un nodo dado.
+* borrar() : string - Elimina un nodo específico.
+* podar() : string - Realiza la poda del árbol, eliminando nodos innecesarios.
+* obtenerNumeroRamas() : string - Devuelve el número de ramas en el árbol.
+* imprimirRecorrido() : string - Imprime un recorrido del árbol.
 
 
 ## 2.Clase Nodo:
 
 **Atributos:**
 
-*dato : int - El valor almacenado en el nodo.
-*nodoIzq : Nodo - Nodo hijo izquierdo.
-*nodoDer : Nodo - Ndo hijo derecho.
-*colorNodo : string - Color del nodo.
+* dato : int - El valor almacenado en el nodo.
+* nodoIzq : Nodo - Nodo hijo izquierdo.
+* nodoDer : Nodo - Ndo hijo derecho.
+* olorNodo : string - Color del nodo.
 
 **Métodos:**
 
-*pintarNodo() : void - Método para pintar el nodo.
+* pintarNodo() : void - Método para pintar el nodo.
 
 
 ## 3.Clase ArbolExpresionGrafico:
 
 **Atributos:**
 
-*arbol : Arbol - Árbol que se va a visualizar gráficamente.
+* arbol : Arbol - Árbol que se va a visualizar gráficamente.
 
 **Métodos:**
 
-*calcularPosisiones() : void - Calcula las posiciones de los nodos para su representación gráfica.
-*calcularTamañoSubArbol() : void - Calcula el tamaño de un subárbol.
-*calcularPosicion() : void - Calcula la posición de un nodo específico.
-*dibujarArbol() : void - Dibuja el árbol de manera gráfica.
-*pintar() : void - Pinta el árbol en la visualización gráfica.
+* calcularPosisiones() : void - Calcula las posiciones de los nodos para su representación gráfica.
+* calcularTamañoSubArbol() : void - Calcula el tamaño de un subárbol.
+* calcularPosicion() : void - Calcula la posición de un nodo específico.
+* dibujarArbol() : void - Dibuja el árbol de manera gráfica.
+* pintar() : void - Pinta el árbol en la visualización gráfica.
 
 
 ## 4.Clase SimuladorArbolBinario:
 
 **Atributos:**
 
-*arbol : Arbol - Árbol que se va a simular.
+* arbol : Arbol - Árbol que se va a simular.
     
 **Métodos:**
 
-*insertar() : int - Inserta un nodo en el árbol.
-*borrar() : int - Elimina un nodo del árbol.
-*imprimirPreOrden() : string - Imprime el recorrido en preorden.
-*imprimirInOrden() : string - Imprime el recorrido en inorden.
-*imprimirPostOrden() : string - Imprime el recorrido en postorden.
-*imprimirPorNiveles() : string - Imprime el recorrido por niveles.
-*darHojas() : int - Devuelve el número de hojas del árbol.
-*darPadre() : string - Devuelve el nodo padre de un nodo específico.
-*buscarDato() : string - Busca un dato en el árbol.
-*recorrido() : string - Realiza un recorrido del árbol.
-*cantNodos() : int - Devuelve la cantidad de nodos en el árbol.
+* insertar() : int - Inserta un nodo en el árbol.
+* borrar() : int - Elimina un nodo del árbol.
+* imprimirPreOrden() : string - Imprime el recorrido en preorden.
+* imprimirInOrden() : string - Imprime el recorrido en inorden.
+* imprimirPostOrden() : string - Imprime el recorrido en postorden.
+* imprimirPorNiveles() : string - Imprime el recorrido por niveles.
+* darHojas() : int - Devuelve el número de hojas del árbol.
+* darPadre() : string - Devuelve el nodo padre de un nodo específico.
+* buscarDato() : string - Busca un dato en el árbol.
+* recorrido() : string - Realiza un recorrido del árbol.
+* cantNodos() : int - Devuelve la cantidad de nodos en el árbol.
 
 
 ## Referencias
